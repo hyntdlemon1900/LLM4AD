@@ -58,8 +58,11 @@ For more information, see the [contact list](https://github.com/Optima-CityU/LLM
 | **Resume run**                                               | 🔥Support                  |
 | Support other programming languages                          | 🚀Coming soon              |
 | More search methods                                          | 🚀Coming soon              |
+ 2024.12 🎉🎉 **LLM4AD paper Released** [“LLM4AD: A Platform for Algorithm Design with Large Language Model"](https://arxiv.org/pdf/2412.17287) !
 | More task examples                                           | 🚀Coming soon              |
+ 2024.11 🎉🎉 **LLM4AD v1.0 Released**  !
 
+ 2024.10 🎉🎉 **Survey Paper** [“A Systematic Survey on Large Language Models for Algorithm Design”](https://arxiv.org/pdf/2410.14716) is online !
 ## 🎁 Requirements & Installation
 
 > [!Important]
@@ -88,11 +91,6 @@ For more information, see the [contact list](https://github.com/Optima-CityU/LLM
 ### Install LLM4AD locally
 
 We suggest to install and run LLM4AD in [conda](https://conda.io/projects/conda/en/latest/index.html) env with python>=3.9, <3.13
-
-```bash
-$ cd LLM4AD
-$ pip install .
-```
 
 ### Install LLM4AD using PiPy
 
@@ -169,10 +167,6 @@ Check [GUI Introduction](https://llm4ad-doc.readthedocs.io/en/latest/getting_sta
 | **EoH**                           | [Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model](https://openreview.net/pdf?id=BwAkaxqiLB) (ICML 2024)<br>[Algorithm Evolution using Large Language Model](https://arxiv.org/abs/2311.15249) (Arxiv 2023, AEL, the early version of EoH) |
 | **MEoH**                          | [Multi-objective Evolution of Heuristic Using Large Language Model](https://arxiv.org/abs/2409.16867) (AAAI 25)                                                                                                                                                                            |
 | **FunSearch**                     | [Mathematical Discoveries from Program Search with Large Language Models](https://www.nature.com/articles/s41586-023-06924-6) (Nature 2024)                                                                                                                                                |
-| **(1+1)-EPS** <br/>(HillClimbing) | [Understanding the Importance of Evolutionary Search in Automated Heuristic Design with Large Language Models](https://arxiv.org/abs/2407.10873) (PPSN 2024)                                                                                                                               |
-| **RandomSampling**                | ----                                                                                                                                                                                                                                                                                       |
-| Neighborhood search methods       | Coming soon                                                                                                                                                                                                                                                                                |
-| Multi-objective search methods    | Coming soon                                                                                                                                                                                                                                                                                |
 | Others                            | Coming soon                                                                                                                                                                                                                                                                                |
 
 ## ⚙️ LLM4AD Algorithm Design Tasks
@@ -188,18 +182,11 @@ Check [GUI Introduction](https://llm4ad-doc.readthedocs.io/en/latest/getting_sta
 |                   | Knapsack Problem (KP), Construct heuristic                                                                                                 | paper                                                             |
 |                   | Quadratic Assignment Problem (QAP), Construct heuristic                                                                                    | paper                                                             |
 |                   | Set Cover Problem (SCP), Construct heuristic                                                                                               | paper                                                             |
-|                   | Flow Shop Scheduling Problem (FSSP), Construct heuristic                                                                                   | paper                                                             |
-|                   | Flow Shop Scheduling Problem (FSSP), Guided local search                                                                                   | [paper](https://openreview.net/pdf?id=BwAkaxqiLB)                 |
-|                   | Bayesian Optimization, Cost-aware Acquisition Function Design                                                                              | [paper](https://arxiv.org/abs/2404.16906)                         |
-| Machine Learning  | Adversarial Attack, Attack strategy                                                                                                        | [paper](https://arxiv.org/abs/2401.15335)                         |
 |                   | [Acrobot, Heuristic (Agent)](https://llm4ad-doc.readthedocs.io/en/latest/task/machine_learning/acrobot.html)                               |                                                                   |
 |                   | [Cart Pole, Heuristic (Agent)](https://llm4ad-doc.readthedocs.io/en/latest/task/machine_learning/car_pole.html)                            |                                                                   |
 |                   | [Mountain Car, Heuristic (Agent)](https://llm4ad-doc.readthedocs.io/en/latest/task/machine_learning/mountain_car.html)                     |                                                                   |
 | Science Discovery | Computational fluid dynamics, Turbulence model design                                                                                      | [paper](https://arxiv.org/pdf/2410.10657)                         |
 |                   | [Bacteria Growth, Function](https://llm4ad-doc.readthedocs.io/en/latest/task/science_discovery/bacteria_grow.html)                         |                                                                   |
-|                   | [Oscillator, Equation](https://llm4ad-doc.readthedocs.io/en/latest/task/science_discovery/oscillator1.html)                                |                                                                   |
-|                   | [Stress & Strain, Equation](https://llm4ad-doc.readthedocs.io/en/latest/task/science_discovery/stress_strain.html)                         |                                                                   |
-| Math              | Admissible Sets                                                                                                                            | [paper](https://www.nature.com/articles/s41586-023-06924-6)       |
 | coming soon ...   |                                                                                                                                            |                                                                   |
 
 ## 🤖 LLM Interfaces
